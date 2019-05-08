@@ -6159,3 +6159,123 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.egit.core 1 0 2019-05-08 10:18:14.032
 !MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-05-08 11:18:35.146 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-08 11:18:41.884
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.core.resources 4 567 2019-05-08 11:18:57.546
+!MESSAGE The project description file (.project) for 'Ejerc10' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'Ejerc10' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1064)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1110)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:236)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:282)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:23:29.316
+!MESSAGE Indexed 'Ejerc17' (1 sources, 174 headers) in 9.98 sec: 13,502 declarations; 21,307 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:23:35.314
+!MESSAGE Indexed 'Ejerc20' (1 sources, 174 headers) in 5.99 sec: 13,502 declarations; 21,279 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:23:41.865
+!MESSAGE Indexed 'Ejerc31' (1 sources, 174 headers) in 6.55 sec: 13,508 declarations; 21,349 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:23:46.942
+!MESSAGE Indexed 'Ejerc35' (1 sources, 174 headers) in 5.07 sec: 13,507 declarations; 21,327 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:23:51.749
+!MESSAGE Indexed 'Ejerc16 (Fibonacci)' (1 sources, 174 headers) in 4.8 sec: 13,502 declarations; 21,279 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:23:55.704
+!MESSAGE Indexed 'Ejerc3' (1 sources, 174 headers) in 3.94 sec: 13,498 declarations; 21,282 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:00.600
+!MESSAGE Indexed 'Ejerc15 (mostrar n-primos)' (1 sources, 174 headers) in 4.89 sec: 13,501 declarations; 21,282 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:05.056
+!MESSAGE Indexed 'Ejerc10' (1 sources, 174 headers) in 4.44 sec: 13,499 declarations; 21,280 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:08.602
+!MESSAGE Indexed 'Ejerc18' (1 sources, 174 headers) in 3.54 sec: 13,503 declarations; 21,317 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:12.374
+!MESSAGE Indexed 'Ejerc21' (1 sources, 174 headers) in 3.77 sec: 13,502 declarations; 21,296 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:16.880
+!MESSAGE Indexed 'Ejerc29' (1 sources, 174 headers) in 4.49 sec: 13,509 declarations; 21,357 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:20.260
+!MESSAGE Indexed 'Ejerc32' (1 sources, 174 headers) in 3.37 sec: 13,506 declarations; 21,343 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:24.883
+!MESSAGE Indexed 'Ejerc36' (1 sources, 177 headers) in 4.61 sec: 13,796 declarations; 21,681 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:28.307
+!MESSAGE Indexed 'Ejerc13 (Factorial)' (1 sources, 174 headers) in 3.42 sec: 13,500 declarations; 21,276 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:31.790
+!MESSAGE Indexed 'Ejerc16.1 (múltiplo de a que no es múltiplo de b.) 2' (1 sources, 174 headers) in 3.47 sec: 13,502 declarations; 21,298 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:35.055
+!MESSAGE Indexed 'Ejerc2' (1 sources, 174 headers) in 3.26 sec: 13,499 declarations; 21,278 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:38.542
+!MESSAGE Indexed 'Ejerc11' (1 sources, 174 headers) in 3.48 sec: 13,500 declarations; 21,280 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:42.028
+!MESSAGE Indexed 'Ejerc19' (1 sources, 174 headers) in 3.48 sec: 13,502 declarations; 21,286 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:45.389
+!MESSAGE Indexed 'Ejerc26' (1 sources, 174 headers) in 3.36 sec: 13,503 declarations; 21,326 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:48.380
+!MESSAGE Indexed 'Ejerc33' (1 sources, 174 headers) in 2.99 sec: 13,507 declarations; 21,300 references; 0 unresolved inclusions; 10 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:51.864
+!MESSAGE Indexed 'Ejerc27 (n conjntos)' (1 sources, 174 headers) in 3.48 sec: 13,508 declarations; 21,362 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:54.843
+!MESSAGE Indexed 'Ejerc12' (1 sources, 174 headers) in 2.98 sec: 13,501 declarations; 21,291 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:24:57.706
+!MESSAGE Indexed 'Ejerc30' (1 sources, 174 headers) in 2.85 sec: 13,503 declarations; 21,304 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:25:01.009
+!MESSAGE Indexed 'Ejerc34' (1 sources, 174 headers) in 3.3 sec: 13,505 declarations; 21,376 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:25:04.310
+!MESSAGE Indexed 'Ejerc28 (conjuntos y subconjuntos)' (1 sources, 174 headers) in 3.3 sec: 13,506 declarations; 21,346 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:25:07.591
+!MESSAGE Indexed 'Ejerc14 (EsPrimo)' (1 sources, 174 headers) in 3.28 sec: 13,500 declarations; 21,279 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:25:10.568
+!MESSAGE Indexed 'Ejerc16.2 (factorial de los primeros n números naturales.)' (1 sources, 174 headers) in 2.97 sec: 13,502 declarations; 21,279 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-08 11:25:14.097
+!MESSAGE Indexed 'Ejerc4' (1 sources, 174 headers) in 3.53 sec: 13,499 declarations; 21,280 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-05-08 11:25:55.595 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-08 11:26:02.613
+!MESSAGE Using Apache MINA sshd as ssh client.
