@@ -1,0 +1,149 @@
+10:15:26 **** Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+../src/ejerc44.cpp: In function ‘int main()’:
+../src/ejerc44.cpp:32:8: warning: the address of ‘double fraccionessuma(int, int, int, int)’ will never be NULL [-Waddress]
+ cout<< fraccionessuma;}
+        ^~~~~~~~~~~~~~
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:15:32 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+make: Nothing to be done for 'all'.
+10:16:48 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+../src/ejerc44.cpp: In function ‘int main()’:
+../src/ejerc44.cpp:32:8: warning: the address of ‘double fraccionessuma(double, double, double, double)’ will never be NULL [-Waddress]
+ cout<< fraccionessuma;}
+        ^~~~~~~~~~~~~~
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:16:55 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+../src/ejerc44.cpp:11:44: error: ‘double2’ has not been declared
+ double fraccionessuma(double,double,double,double2);
+                                            ^~~~~~~
+../src/ejerc44.cpp: In function ‘int main()’:
+../src/ejerc44.cpp:32:8: warning: the address of ‘double fraccionessuma(double, double, double, int)’ will never be NULL [-Waddress]
+ cout<< fraccionessuma;}
+        ^~~~~~~~~~~~~~
+make: *** [src/ejerc44.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ejerc44.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+10:17:07 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+../src/ejerc44.cpp: In function ‘int main()’:
+../src/ejerc44.cpp:32:8: warning: the address of ‘double fraccionessuma(double, double, double, double)’ will never be NULL [-Waddress]
+ cout<< fraccionessuma;}
+        ^~~~~~~~~~~~~~
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:17:33 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+../src/ejerc44.cpp: In function ‘int main()’:
+../src/ejerc44.cpp:32:8: warning: the address of ‘double fraccionessuma(double, double, double, double)’ will never be NULL [-Waddress]
+ cout<< fraccionessuma;}
+        ^~~~~~~~~~~~~~
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:19:50 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+../src/ejerc44.cpp: In function ‘int main()’:
+../src/ejerc44.cpp:32:8: warning: the address of ‘double fraccionessuma(double, double, double, double)’ will never be NULL [-Waddress]
+ cout<< fraccionessuma;
+        ^~~~~~~~~~~~~~
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:19:53 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+make: Nothing to be done for 'all'.
+10:20:42 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:23:51 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:25:33 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 
+10:25:55 **** Incremental Build of configuration Debug for project Ejerc44 ****
+make all 
+Building file: ../src/ejerc44.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejerc44.d" -MT"src/ejerc44.o" -o "src/ejerc44.o" "../src/ejerc44.cpp"
+Finished building: ../src/ejerc44.cpp
+ 
+Building target: Ejerc44
+Invoking: GCC C++ Linker
+g++  -o "Ejerc44"  ./src/ejerc44.o   
+Finished building target: Ejerc44
+ 

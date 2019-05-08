@@ -1,0 +1,15 @@
+15:54:25 **** Rebuild of configuration Debug for project Ejerc11 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src/Ejerc11.o ../src/Ejerc11.cpp 
+../src/Ejerc11.cpp: In function ‘int main()’:
+../src/Ejerc11.cpp:40:5: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/Ejerc11.cpp:42:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+        break;
+        ^~~~~
+g++ -o Ejerc11.exe src/Ejerc11.o 
+
+15:54:29 Build Finished. 0 errors, 1 warnings. (took 3s.213ms)
+

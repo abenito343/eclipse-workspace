@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : Ejerc3.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a;
+	cout <<"Ingrese 1 numero:"<< endl;
+    cin >> a ;
+
+
+    cout <<"La resta es: " << a << endl;
+
+    cout <<"La division real es: " << (double) a/5 << endl;
+
+
+
+
+
+	return 0;
+}

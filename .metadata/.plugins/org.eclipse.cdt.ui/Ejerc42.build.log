@@ -1,0 +1,6 @@
+09:47:33 **** Incremental Build of configuration Debug for project Ejerc42 ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:47:34 Build Finished. 0 errors, 0 warnings. (took 631ms)
+

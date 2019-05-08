@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : ejerc44.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+double fraccionessuma(int,int);
+double fraccionesresta(int,int);
+double fraccionesdivision(int,int);
+double fraccionesmultiplicacion(int,int);
+
+
+struct fracciones{
+
+	int denominador;
+	int numerador;
+
+};
+
+int main() {
+
+	fracciones n;
+
+cout<< "ingresa dos valores para que se dividan"<< endl;
+cin >> n.denominador >> n.numerador;
+
+
+
+	return 0;
+}
+
