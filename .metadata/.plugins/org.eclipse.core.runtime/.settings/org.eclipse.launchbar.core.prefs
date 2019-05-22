@@ -7,6 +7,7 @@ org.eclipse.launchbar.core.descriptorType.default\:Ejerc34.exe/activeLaunchMode=
 org.eclipse.launchbar.core.descriptorType.default\:Ejerc34.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Ejerc6.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Ejerc6.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:ProyectoGuia2/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Prueba1/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Prueba1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:permutar/activeLaunchMode=run

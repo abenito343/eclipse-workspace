@@ -21,6 +21,15 @@ int length(string s)
 
    return i;
 }
+int powX(int a,int b)
+{
+	int x = a;
+	for (int i = 1; i<b; i++)
+	{
+		x = x*a;
+	}
+	return x;
+}
 
 // Retorna la cantidad de veces que la cadena s contiene a c
 int charCount(string s,char c)
@@ -102,13 +111,38 @@ char intToChar(int i)
 // retorna el i-esimo digito de n contando desde la derecha
 int getDigit(int n,int i) // ok
 {
-   // PROGRAMAR AQUI...
+	if ( n < 0 )
+			n *= -1;
+	 	int dig;
+		if ( i == 0)
+			dig = (n%10);
+		else{
+			int a = pow( 10, i + 1);
+			int b = pow( 10, i);		// tira error de "tipos operandos"
+			dig = (n % a)/b;			// si hago todo en una linea
+		}
+		return dig;
    return 0;
 }
 
-int digitCount(int i) // ok
+int digitCount(int n) // ok
 {
-   // PROGRAMAR AQUI...
+
+	if( n < 0)
+		n *= -1; // no me da el valor absoluto , marca error ????? -> pongo n*(-1)
+	// n = abs(n)???;
+	int c = 1;
+	int dig = (n/10);
+	if (n <= 9)
+		return c;
+	else
+	{
+		while( dig > 0 ){
+			dig /= 10;
+			c++;
+		}
+		return c;
+	}
    return 0;
 }
 
@@ -155,6 +189,7 @@ double stringToDouble(string s)
    // PROGRAMAR AQUI...
    return 0;
 }
+
 
 bool isEmpty(string s)
 {

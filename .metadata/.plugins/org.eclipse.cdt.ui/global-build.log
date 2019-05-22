@@ -265,3 +265,1212 @@ Invoking: GCC C++ Linker
 g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
 Finished building target: ProyectoGuia2
  
+09:33:12 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+../src/ProyectoGuia2.cpp: In function ‘int main()’:
+../src/ProyectoGuia2.cpp:14:9: error: redeclaration of ‘std::__cxx11::string s’
+  string s;
+         ^
+../src/ProyectoGuia2.cpp:9:9: note: ‘std::__cxx11::string s’ previously declared here
+  string s ="Hola";
+         ^
+make: *** [src/ProyectoGuia2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ProyectoGuia2.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+09:33:16 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+../src/ProyectoGuia2.cpp: In function ‘int main()’:
+../src/ProyectoGuia2.cpp:14:9: error: redeclaration of ‘std::__cxx11::string s’
+  string s;
+         ^
+../src/ProyectoGuia2.cpp:9:9: note: ‘std::__cxx11::string s’ previously declared here
+  string s ="Hola";
+         ^
+src/subdir.mk:18: recipe for target 'src/ProyectoGuia2.o' failed
+make: *** [src/ProyectoGuia2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:33:47 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:36:12 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:37:01 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:37:25 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:38:46 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:38:54 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:39:09 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:41:02 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:41:35 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:42:17 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:43:00 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:43:56 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:44:06 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:44:51 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:45:59 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+../src/ProyectoGuia2.cpp: In function ‘int main()’:
+../src/ProyectoGuia2.cpp:20:30: error: lvalue required as left operand of assignment
+    s[i]=(getDigit( int(d),i)=48);
+                              ^~
+make: *** [src/ProyectoGuia2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ProyectoGuia2.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+09:46:16 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:47:39 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:48:05 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:48:27 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:49:21 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:49:34 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:50:10 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:52:17 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:53:04 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:53:47 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+../src/ProyectoGuia2.cpp: In function ‘int main()’:
+../src/ProyectoGuia2.cpp:24:7: warning: value computed is not used [-Wunused-value]
+   s[f]==46;
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:54:13 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:55:07 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:55:22 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:57:06 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:57:58 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:58:46 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:59:14 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+09:59:45 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:00:08 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:00:22 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:01:05 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:01:38 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:04:07 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:04:24 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:04:38 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:04:50 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:05:12 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:05:47 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:06:06 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:06:47 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+../src/ProyectoGuia2.cpp: In function ‘int main()’:
+../src/ProyectoGuia2.cpp:12:9: error: array size missing in ‘s’
+  string s[];//="aaaaaaaaa";
+         ^
+src/subdir.mk:18: recipe for target 'src/ProyectoGuia2.o' failed
+make: *** [src/ProyectoGuia2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:07:11 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+../src/ProyectoGuia2.cpp: In function ‘int main()’:
+../src/ProyectoGuia2.cpp:12:10: error: expected initializer before ‘*’ token
+  string s*;//="aaaaaaaaa";
+          ^
+../src/ProyectoGuia2.cpp:15:4: error: ‘s’ was not declared in this scope
+    s[i]='a';
+    ^
+../src/ProyectoGuia2.cpp:27:4: error: ‘s’ was not declared in this scope
+    s[f]=(getDigit( int(d),i)+48);
+    ^
+../src/ProyectoGuia2.cpp:30:3: error: ‘s’ was not declared in this scope
+   s[f]=46;
+   ^
+make: *** [src/ProyectoGuia2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ProyectoGuia2.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+10:07:54 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:08:48 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:11:42 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:12:00 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:13:27 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:13:33 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:13:47 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:16:08 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:21:13 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:21:27 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:21:42 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:22:32 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:23:00 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:23:37 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:24:34 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:26:59 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:27:03 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:27:06 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:28:58 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:29:16 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:29:47 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:30:45 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:31:11 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:35:48 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:40:47 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+../src/ProyectoGuia2.cpp: In function ‘int main()’:
+../src/ProyectoGuia2.cpp:44:40: error: expected ‘)’ before ‘;’ token
+     s[i]= ((d - int(d))*(powX(10,g))+48;
+                                        ^
+make: *** [src/ProyectoGuia2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ProyectoGuia2.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+10:41:34 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:42:10 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:42:39 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:42:52 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:44:23 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:44:50 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:45:15 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:45:53 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+In file included from ../src/ProyectoGuia2.cpp:3:0:
+../src/biblioteca/funciones/strings.hpp: In function ‘int powX(int, int)’:
+../src/biblioteca/funciones/strings.hpp:26:6: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+  int x = a;
+      ^
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:46:32 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:47:14 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:47:27 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:47:49 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:48:19 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:48:38 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:54:19 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:55:27 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:55:46 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:57:00 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:57:56 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:58:26 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:59:21 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+10:59:44 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+11:00:27 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+11:01:55 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+11:02:14 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+11:02:28 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+Building file: ../src/ProyectoGuia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProyectoGuia2.d" -MT"src/ProyectoGuia2.o" -o "src/ProyectoGuia2.o" "../src/ProyectoGuia2.cpp"
+Finished building: ../src/ProyectoGuia2.cpp
+ 
+Building target: ProyectoGuia2
+Invoking: GCC C++ Linker
+g++  -o "ProyectoGuia2"  ./src/ProyectoGuia2.o   
+Finished building target: ProyectoGuia2
+ 
+11:02:38 **** Incremental Build of configuration Debug for project ProyectoGuia2 ****
+make all 
+make: Nothing to be done for 'all'.
