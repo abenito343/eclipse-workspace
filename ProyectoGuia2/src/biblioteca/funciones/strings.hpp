@@ -247,8 +247,12 @@ string replicate(char c,int n)
 
 string spaces(int n)
 {
-   // PROGRAMAR AQUI...
-   return "";
+	string s;
+	for (int i =0; i <n; i++)
+
+			s+=32;
+
+   return s;
 }
 
 string lpad(string s,int n,char c)

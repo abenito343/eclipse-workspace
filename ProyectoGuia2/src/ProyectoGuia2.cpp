@@ -5,39 +5,56 @@
 using namespace std;
 
 int main(){
-	//int base;
 
 
-	double d=1234.534;
-	string s="aaaaaaaaaa";
-	for (int i =0; i <10; i++)
-			s[i]=32;
+	/*string r=spaces(5);
+	cout<<"["<<r<<"]";*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//DOUBLE TO STRING
+	double d=1234.54;
+	string s;
 
 	cout<< "digitos:"<<digitCount(int(d))<<endl;
 	cout<< "numero entera:"<<int(d)<<endl;
 	cout<< "parte decimal:"<<d-int(d)<<endl;
-	int f=0;
+
 		for (int i = digitCount(int(d)) - 1 ; i >= 0; i--){
 
 			cout << getDigit( int(d),i)<<endl;
-			s[f]=(getDigit( int(d),i)+48);
-			f++;
+			s+=(getDigit( int(d),i)+48);
 		}
-		s[f]=46;
-		f++;
-		cout<<f<<endl;
-		cout<<"d:"<<((d - int(d))*100)<<endl;
+		s+=46;
 		double resto=d - int(d) ;
 
-		int h=0;
-		while(resto>0.0000000001){
+		while(resto<0.99){
+
 			resto= resto*10;
-			cout<<"rest:"<<int(resto)<<endl;
-			s[h+f]=int(resto)+48;
+			s+=int(resto)+48;
 
 			resto= resto - int(resto);
-			h++;
+			cout<<"rest:"<<resto<<endl;
 		}
 
 	cout << "s:"<<s;
