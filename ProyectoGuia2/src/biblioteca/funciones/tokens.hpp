@@ -8,38 +8,71 @@ using namespace std;
 
 // --[Funciones Token]--
 
-// s = "John|Paul|George|Ringo"
-int tokenCount(string s,char sep) // ok
+int tokenCount(string s,char sep)
 {
-   return charCount(s,sep)+1;
+   return s==""?0:charCount(s,sep)+1;
+}
+string getTokenAt(string s,char sep,int i)
+{
+   i++;
+   string sub;
+   int cant=tokenCount(s,sep);
+   if(i==1)
+      sub=substring(s,0,indexOf(s,sep));
+   else
+      {
+         if(i==cant)
+            sub=substring(s,indexOfN(s,sep,cant+1)+1);
+         else
+         {
+          sub=substring(s,indexOfN(s,sep,i-1)+1,indexOfN(s,sep,i));
+         }
+      }
+   return sub;
+}
+void addToken(string& s, char sep, string t)
+{
+   int cant=tokenCount(s,sep);
+   cant==0?s=t:s=s+sep+t;
+}
+string removeTokenAt(string &s,char sep, int i)
+{
+   //i++;
+   int cant=tokenCount(s,sep);
+   string sub="";
+   for(int j=0;j<cant;j++)
+   {
+      if(j!=i)
+         addToken(sub,sep,getTokenAt(s,sep,j));
+   }
+   return sub;
 }
 
-// pablo|juan|pedro|carlos
-string getTokenAt(string s,char sep, int p)  // ok
+void setTokenAt(string &s,char sep,string t,int i)
 {
-   return "";
+   int cant=tokenCount(s,sep);
+   string sub="";
+   for(int j=0;j<cant;j++)
+   {
+      if(j!=i)
+         addToken(sub,sep,getTokenAt(s,sep,j));
+      else
+         addToken(sub,sep,t);
+   }
+   s=sub;
 }
-
-void addToken(string& s,char sep,string t) // ok
+int findToken(string s,char sep,string t)
 {
+   int cant=tokenCount(s,sep);
+   for(int i=0;i<cant;i++ )
+   {
+      if(getTokenAt(s,sep,i)==t)
+      {
+         return i;
+      }
+   }
+   return -1;
 }
-
-string removeTokenAt(string& s,char sep, int p) //  ok
-{
-   return "";
-}
-
-void setTokenAt(string& s,char sep, string t,int p) // ok
-{
-}
-
-int findToken(string s,char sep, string t)
-{
-   return 0;
-}
-
 // --[/Funciones Token]--
-
-
 
 #endif
