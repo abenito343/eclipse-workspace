@@ -1,109 +1,90 @@
-
 #include <iostream>
 #include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
 #include "biblioteca/tads/Coll.hpp"
 using namespace std;
 
-int main(){
+//se ingresa un conjunto de numeros que termina con con 0
+//se  pide el listado de numeros que son superiores al promedio de numeros ingresados
 
 
-	/*string r=spaces(5);
-	cout<<"["<<r<<"]";*/
+struct Elemento{
+	int valor;
+};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//DOUBLE TO STRING
-	double d=1234.54;
-	string s;
-
-	cout<< "digitos:"<<digitCount(int(d))<<endl;
-	cout<< "numero entera:"<<int(d)<<endl;
-	cout<< "parte decimal:"<<d-int(d)<<endl;
-
-		for (int i = digitCount(int(d)) - 1 ; i >= 0; i--){
-
-			cout << getDigit( int(d),i)<<endl;
-			s+=(getDigit( int(d),i)+48);
-		}
-		s+=46;
-		double resto=d - int(d) ;
-
-		while(resto<0.99){
-
-			resto= resto*10;
-			s+=int(resto)+48;
-
-			resto= resto - int(resto);
-			cout<<"rest:"<<resto<<endl;
-		}
-
-	cout << "s:"<<s;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//	cout<<length(s)<<endl;
-//	cout<<charCount(s,'c')<<endl;
-
-	   /*int sum = 0;
-	   int n = length(s);
-
-	   for(int i = 0; i >= 0;i--){
-		   char c = s[i];
-		   int d;
-
-		   if(c >= '0' && c <= '9'){
-			   d = c - '0';
-		   }
-		   else{
-			   d = c - 'A' + 10;
-		   }
-		   int e = n - i - 1;
-		   sum = sum + d*pow(b,e);
-	   }
-	   cout << sum ;*/
-
-	return 0;
+string elementoToString(Elemento e)
+{
+	 return intToString(e.valor);
 }
+Elemento elementoFromString(string s)
+{
+   Elemento e;
+   e.valor = stringToInt(getTokenAt(s,',',0));
+
+   return e;
+}
+
+int cmpElemento(Elemento a,Elemento b)
+{
+	 return a.valor-b.valor;
+}
+
+void imprimir(Coll<Elemento> c)
+{
+   int i=0,l=0;
+
+   Elemento e = collGetAt<Elemento>(c,i,elementoFromString);
+
+   while( i<collSize<Elemento>(c) )
+   {
+
+	l=(e.valor+l);
+	i++;
+
+	e = collGetAt<Elemento>(c,i,elementoFromString);
+
+   }
+   l=l/i;
+   i=0;
+
+   while( i<collSize<Elemento>(c) )
+      {
+
+		 if(e.valor>l){
+			cout << "el promedio es:"<<l;
+			cout << endl;
+
+			cout << e.valor;
+			cout << endl;
+		 }
+
+		i++;
+		e = collGetAt<Elemento>(c,i,elementoFromString);
+
+
+      }
+}
+int main()
+{
+	 Coll<Elemento> c = collCreate<Elemento>();
+
+	   int v;
+
+	   cin >> v;
+
+	   while( v>0 )
+	     {
+          Elemento e;
+		  e.valor = v;
+
+		  collAdd<Elemento>(c,e,elementoToString);
+
+		  cin >> v;
+	     }
+
+	   collSort<Elemento>(c,cmpElemento,elementoFromString,elementoToString);
+	   imprimir(c);
+
+	   return 0;
+}
+

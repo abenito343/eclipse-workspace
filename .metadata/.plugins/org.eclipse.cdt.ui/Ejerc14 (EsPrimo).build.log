@@ -1,1 +1,8 @@
-Info: Nothing to build for Ejerc14 (EsPrimo)
+01:10:23 **** Rebuild of configuration Debug for project Ejerc14 (EsPrimo) ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src/Ejerc14.o ../src/Ejerc14.cpp 
+g++ -o "Ejerc14 (EsPrimo).exe" src/Ejerc14.o 
+
+01:10:25 Build Finished. 0 errors, 0 warnings. (took 2s.349ms)
+

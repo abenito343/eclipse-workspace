@@ -11,6 +11,9 @@
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/ariel/eclipse-workspace/AlgoritmosProject_2C_EMPTY_v1.9"/>
+			<item value="/home/ariel/eclipse-workspace/AlgoritmosProject_1C_FULL_v1.8"/>
+			<item value="/home/ariel/eclipse-workspace/ProyectoGuia2"/>
 			<item value="/home/ariel/eclipse-workspace/AlgoritmosProject_1C_EMPTY_v1.6"/>
 			<item value="/home/ariel/eclipse-workspace"/>
 			<item value="/home/ariel/Desktop/algoritmos/Eclipse"/>
